@@ -1,12 +1,21 @@
 .sidebar {
-  position: fixed;
+  /*position: -webkit-sticky;*/
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  position: sticky;
+  top: 20px;
+  height: auto;
   width: 200px;
   left: 0;
-  top: 0;
-  bottom: 0;
+  top: 20px;
+  bottom: 0; 
+  color: whitesmoke;
 }
 
 .sidebar ul {
+  transition: color 0.3s ease;
   list-style: none;
-  padding-left: 0px;
+  padding-left: 10px;
 }
+
+

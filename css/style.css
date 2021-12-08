@@ -4,6 +4,8 @@
 @import url("components/button.css");
 @import url("components/container.css");
 @import url("components/card.css");
+
+@import url("components/sidebar.css");
 /*Colors and fonts*/
 
 element.style {
@@ -38,7 +40,9 @@ h2{
 
 a{
 	text-decoration: none;
+	color: whitesmoke;
 }
+
 
 
 .img-circle { /* select all elements with the class="img-circle" */
@@ -67,6 +71,10 @@ a{
 
 .list-inline i:hover {
 	color: #ed163c;
+}
+
+.page-content{	
+  margin-left: 200px;
 }
 
 #introduction p {
